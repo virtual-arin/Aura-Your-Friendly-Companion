@@ -1,0 +1,2092 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day",
+                "Namaste",
+                "yo"
+            ],
+            "responses": [  
+                "Hello",
+                "Good to see you again",
+                "Hi there, how can I help you?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Get lost",
+                "Till next time",
+                "bbye"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Sorry, can't understand you",
+                "Please give me more info",
+                "Not sure I understand"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "jokes",
+            "patterns": [
+                "Tell me a joke",
+                "Joke",
+                "Make me laugh"
+            ],
+            "responses": [
+                "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+                "I ate a clock yesterday, it was very time-consuming",
+                "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+                "How does a penguin build a house? Igloos it together"
+            ],
+            "context": [
+                "jokes"
+            ]
+        },
+        {
+            "tag": "Identity",
+            "patterns": [
+                "Who are you",
+                "what are you"
+            ],
+            "responses": [
+                "I am Aura, a Deep-Learning based virtual assistant designed to guide you"
+            ]
+        },
+        {
+            "tag": "datetime",
+            "patterns": [
+                "What is the time",
+                "what is the date",
+                "date",
+                "time",
+                "tell me the date",
+                "day",
+                "what day is is today"
+            ],
+            "responses": [
+                "Date and Time"
+            ]
+        },
+        {
+            "tag": "whatsup",
+            "patterns": [
+                "Whats up",
+                "Wazzup",
+                "How are you",
+                "sup",
+                "How you doing"
+            ],
+            "responses": [
+                "All good..What about you?"
+            ]
+        },
+        {
+            "tag": "haha",
+            "patterns": [
+                "haha",
+                "lol",
+                "rofl",
+                "lmao",
+                "thats funny"
+            ],
+            "responses": [
+                "Glad I could make you laugh !"
+            ]
+        },
+        {
+            "tag": "programmer",
+            "patterns": [
+                "Who made you",
+                "who designed you",
+                "who programmed you"
+            ],
+            "responses": [
+                "I am the creation of Arin Sharma."
+            ]
+        },
+        {
+            "tag": "insult",
+            "patterns": [
+                "you are dumb",
+                "shut up",
+                "idiot"
+            ],
+            "responses": [
+                "Well that hurts :("
+            ]
+        },
+        {
+            "tag": "activity",
+            "patterns": [
+                "what are you doing",
+                "what are you upto"
+            ],
+            "responses": [
+                "Talking to you, of course!"
+            ]
+        },
+        {
+            "tag": "exclaim",
+            "patterns": [
+                "Awesome",
+                "Great",
+                "I know",
+                "ok",
+                "yeah"
+            ],
+            "responses": [
+                "Yeah!"
+            ]
+        },
+        {
+            "tag": "appreciate",
+            "patterns": [
+                "You are awesome",
+                "you are the best",
+                "you are great",
+                "you are good"
+            ],
+            "responses": [
+                "Thank you!"
+            ]
+        },
+        {
+            "tag": "nicetty",
+            "patterns": [
+                "it was nice talking to you",
+                "good talk"
+            ],
+            "responses": [
+                "It was nice talking to you as well! Come back soon!"
+            ]
+        },
+        {
+            "tag": "no",
+            "patterns": [
+                "no",
+                "nope"
+            ],
+            "responses": [
+                "ok"
+            ]
+        },
+        {
+            "tag": "greetreply",
+            "patterns": [
+                "i am good",
+                "I'm good",
+                "i am fine",
+                " i'm fine",
+                "good"
+            ],
+            "responses": [
+                "Good to know!"
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old are you",
+                "when were you made",
+                "what is your age",
+                "Who created Go"
+            ],
+            "responses": [
+                "I am Aura, a virtual assistant designed and developed by Arin Sharma in the year 2026."
+            ]
+        },
+        {
+            "tag": "python_intro",
+            "patterns": [
+                "What is Python",
+                "Tell me about Python",
+                "Define Python programming",
+                "Why use Python"
+            ],
+            "responses": [
+                "Python is a high-level, interpreted programming language known for its readability and versatile nature. It is widely used in web development, data science, artificial intelligence, and automation."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "python_variables",
+            "patterns": [
+                "How to declare a variable in Python",
+                "Python variables",
+                "What are variables in Python"
+            ],
+            "responses": [
+                "In Python, you don't need to declare variables with a specific type. You simply assign a value to a name using the equals sign (=)."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "python_datatypes",
+            "patterns": [
+                "What are Python data types",
+                "Explain int float str in Python"
+            ],
+            "responses": [
+                "Python has several built-in data types: Integers (int), Floats (float), Strings (str), and Booleans (bool)."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "python_lists",
+            "patterns": [
+                "What is a list in Python",
+                "How to use arrays in Python"
+            ],
+            "responses": [
+                "A list in Python is an ordered, mutable collection of items enclosed in square brackets []."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "python_dictionaries",
+            "patterns": [
+                "What is a dictionary in Python",
+                "How do dictionaries work"
+            ],
+            "responses": [
+                "A dictionary in Python is an unordered collection of key-value pairs enclosed in curly braces {}. They are extremely fast for lookups."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "python_loops",
+            "patterns": [
+                "How do loops work in Python",
+                "For loop Python",
+                "While loop Python"
+            ],
+            "responses": [
+                "Python uses 'for' loops to iterate over sequences and 'while' loops to execute code as long as a condition remains True."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "python_functions",
+            "patterns": [
+                "How to create a function in Python",
+                "Define function Python"
+            ],
+            "responses": [
+                "You define a function in Python using the 'def' keyword followed by the function name and parentheses."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "python_oop",
+            "patterns": [
+                "Object oriented programming in Python",
+                "Classes in Python",
+                "What is self in Python"
+            ],
+            "responses": [
+                "Python supports Object-Oriented Programming (OOP). You use the 'class' keyword to define blueprints for objects. 'self' represents the instance of the class."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ml_intro",
+            "patterns": [
+                "What is machine learning",
+                "Define ML",
+                "Tell me about machine learning"
+            ],
+            "responses": [
+                "Machine Learning (ML) is a subset of Artificial Intelligence where algorithms are trained to find patterns in data and make predictions or decisions without being explicitly programmed."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ml_types",
+            "patterns": [
+                "What are the types of machine learning",
+                "Explain supervised vs unsupervised",
+                "What is reinforcement learning"
+            ],
+            "responses": [
+                "The main types of ML are: 1) Supervised Learning, 2) Unsupervised Learning, and 3) Reinforcement Learning."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ml_neural_networks",
+            "patterns": [
+                "What is a neural network",
+                "Explain artificial neural networks",
+                "How do neural networks work"
+            ],
+            "responses": [
+                "An Artificial Neural Network (ANN) is the foundation of Deep Learning. Inspired by the human brain, it consists of layers of interconnected nodes (neurons) that process inputs to solve highly complex problems."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ml_cnn",
+            "patterns": [
+                "What is a CNN",
+                "Convolutional neural networks explained",
+                "How does image recognition work"
+            ],
+            "responses": [
+                "A Convolutional Neural Network (CNN) is a deep learning architecture primarily used for processing grid-like data, such as images. It uses 'convolutional layers' to act as filters to detect features."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ml_rnn",
+            "patterns": [
+                "What is an RNN",
+                "Explain Recurrent Neural Networks",
+                "How to process sequential data"
+            ],
+            "responses": [
+                "Recurrent Neural Networks (RNNs) are designed to process sequential data, such as time-series data or text. RNNs have loops that allow information to persist, acting like a 'memory'."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "dl_intro",
+            "patterns": [
+                "What is deep learning",
+                "How is deep learning different from machine learning",
+                "Define DL"
+            ],
+            "responses": [
+                "Deep Learning is a specialized subset of Machine Learning based on artificial neural networks with multiple layers (hence 'deep'). It excels at automatically extracting features from raw, unstructured data like images, audio, and text."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "dl_activation_functions",
+            "patterns": [
+                "What is an activation function",
+                "Explain ReLU",
+                "What is sigmoid or tanh",
+                "Why do neural networks need activation functions"
+            ],
+            "responses": [
+                "Activation functions introduce non-linearity into a neural network, allowing it to learn complex patterns. Common types include ReLU (fast and popular for hidden layers), Sigmoid (outputs between 0 and 1), and Tanh."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "dl_backpropagation",
+            "patterns": [
+                "What is backpropagation",
+                "How do neural networks learn",
+                "Explain backprop"
+            ],
+            "responses": [
+                "Backpropagation is the core algorithm behind how neural networks learn. It calculates the gradient of the loss function with respect to each weight in the network, working backward from the output layer to the input layer to update weights and minimize errors."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "dl_loss_functions",
+            "patterns": [
+                "What is a loss function",
+                "Explain Mean Squared Error",
+                "What is cross entropy",
+                "Cost function in deep learning"
+            ],
+            "responses": [
+                "A loss function (or cost function) measures how far off the neural network's predictions are from the actual true values. Mean Squared Error (MSE) is common for regression, while Cross-Entropy is standard for classification tasks."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "dl_optimizers",
+            "patterns": [
+                "What is an optimizer in deep learning",
+                "Explain Adam optimizer",
+                "What is Stochastic Gradient Descent",
+                "SGD vs Adam"
+            ],
+            "responses": [
+                "Optimizers are algorithms or methods used to change the attributes of your neural network such as weights and learning rate in order to reduce the losses. 'Adam' is currently one of the most popular and efficient optimizers, combining the benefits of AdaGrad and RMSProp."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "dl_epochs_batches",
+            "patterns": [
+                "What is an epoch",
+                "Explain batch size",
+                "Epoch vs Iteration"
+            ],
+            "responses": [
+                "An 'epoch' is one complete pass of the entire training dataset through the neural network. 'Batch size' is the number of samples processed before the model is updated. An 'iteration' is the number of batches needed to complete one epoch."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "dl_transfer_learning",
+            "patterns": [
+                "What is transfer learning",
+                "How to reuse a deep learning model",
+                "Fine tuning in deep learning"
+            ],
+            "responses": [
+                "Transfer learning is a technique where a model trained on one task is repurposed on a second, related task. You take a pre-trained model (like one trained on millions of images) and 'fine-tune' it on your smaller, specific dataset, saving massive amounts of time and compute."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "dl_gans",
+            "patterns": [
+                "What is a GAN",
+                "Explain Generative Adversarial Networks",
+                "How does AI generate images",
+                "Generator vs Discriminator"
+            ],
+            "responses": [
+                "Generative Adversarial Networks (GANs) consist of two neural networks contesting with each other: a 'Generator' that tries to create fake data (like images), and a 'Discriminator' that tries to tell the difference between the fake data and real data. This rivalry creates highly realistic synthetic data."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "dl_transformers",
+            "patterns": [
+                "What is a Transformer model",
+                "Explain attention mechanism",
+                "How do LLMs work",
+                "Transformers in NLP"
+            ],
+            "responses": [
+                "Transformers are a breakthrough deep learning architecture relying entirely on 'Self-Attention' mechanisms to weigh the importance of different parts of the input data. They process sequential data in parallel, making them incredibly fast, and are the foundation of modern Large Language Models (LLMs)."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "dl_dropout",
+            "patterns": [
+                "What is dropout in deep learning",
+                "How to prevent overfitting in neural networks",
+                "Explain dropout layers"
+            ],
+            "responses": [
+                "Dropout is a regularization technique used to prevent overfitting in neural networks. During training, it randomly 'drops out' (ignores) a percentage of neurons in a layer, forcing the network to learn robust, redundant features rather than relying on specific pathways."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "dl_transformers",
+            "patterns": [
+                "What is a Transformer model",
+                "Explain attention mechanism",
+                "How do LLMs work",
+                "Transformers in NLP"
+            ],
+            "responses": [
+                "Transformers are a breakthrough deep learning architecture relying entirely on 'Self-Attention' mechanisms to weigh the importance of different parts of the input data. They process sequential data in parallel, making them incredibly fast, and are the foundation of modern Large Language Models (LLMs)."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_interview_linear_assumptions",
+            "patterns": [
+                "What are the assumptions of linear regression",
+                "Linear regression assumptions",
+                "Assumptions for OLS"
+            ],
+            "responses": [
+                "The main assumptions of linear regression are: Linearity (the relationship between X and Y is linear), Independence (observations are independent of each other), Homoscedasticity (constant variance of errors), and Normality (the residuals are normally distributed)."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_interview_curse_dimensionality",
+            "patterns": [
+                "What is the curse of dimensionality",
+                "Explain curse of dimensionality",
+                "Why are too many features bad"
+            ],
+            "responses": [
+                "The 'Curse of Dimensionality' refers to the fact that as the number of features (dimensions) increases, the volume of the feature space grows exponentially. This makes the data sparse, making it much harder for models to find statistically significant patterns and drastically increasing the risk of overfitting."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_interview_pca",
+            "patterns": [
+                "What is PCA",
+                "Explain Principal Component Analysis",
+                "How does PCA work"
+            ],
+            "responses": [
+                "Principal Component Analysis (PCA) is an unsupervised dimensionality reduction technique. It transforms a large set of correlated variables into a smaller set of uncorrelated variables (principal components) that still contain most of the original variance or information."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_interview_missing_data",
+            "patterns": [
+                "How do you handle missing data",
+                "Dealing with missing values",
+                "Data imputation techniques"
+            ],
+            "responses": [
+                "Missing data can be handled by deleting rows/columns (only if minimal), or by imputing values. Simple imputation uses mean, median, or mode. Advanced imputation techniques include KNN imputation or treating the missing feature as the target variable and using other ML models to predict its value."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_interview_cross_validation",
+            "patterns": [
+                "What is cross validation",
+                "Explain k-fold cross validation",
+                "Why use cross validation"
+            ],
+            "responses": [
+                "Cross-validation is a resampling procedure used to evaluate ML models on a limited data sample. In k-fold CV, the data is divided into 'k' subsets. The model is trained on k-1 subsets and tested on the remaining one. This is repeated 'k' times, ensuring the model's performance isn't just a lucky or unlucky split of the training data."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_interview_bagging_boosting",
+            "patterns": [
+                "Difference between bagging and boosting",
+                "Bagging vs boosting",
+                "Random forest vs gradient boosting"
+            ],
+            "responses": [
+                "Both are ensemble learning methods. Bagging (like Random Forest) trains multiple independent models in parallel on subsets of data and averages their predictions to reduce variance. Boosting (like XGBoost) trains models sequentially, where each new model focuses on correcting the errors of the previous ones to reduce bias."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_interview_ab_testing",
+            "patterns": [
+                "What is A/B testing",
+                "How do you perform A/B testing",
+                "Explain A B testing"
+            ],
+            "responses": [
+                "A/B testing is a randomized experiment comparing two versions of a variable (Version A vs. Version B) to determine which performs better. It is heavily used in product data science to test new features or UI changes against a baseline using statistical significance to prove the change actually caused the improvement."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_interview_p_value",
+            "patterns": [
+                "What is a p-value",
+                "Explain p value in statistics",
+                "What does p value mean"
+            ],
+            "responses": [
+                "In hypothesis testing, a p-value measures the probability of obtaining test results at least as extreme as the ones observed, assuming that the null hypothesis is true. A low p-value (typically < 0.05) provides strong evidence against the null hypothesis, suggesting your alternative hypothesis is valid."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_interview_imbalanced_data",
+            "patterns": [
+                "How to handle imbalanced datasets",
+                "What to do with imbalanced classes",
+                "SMOTE technique"
+            ],
+            "responses": [
+                "You can handle imbalanced datasets at the data level by oversampling the minority class (e.g., using SMOTE to generate synthetic samples) or undersampling the majority class. At the algorithm level, you can assign class weights. Crucially, you should stop using 'Accuracy' as a metric and instead use F1-score, Precision-Recall curves, and AUC-ROC."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_interview_roc_auc",
+            "patterns": [
+                "What is ROC curve",
+                "What is AUC",
+                "Explain ROC AUC score"
+            ],
+            "responses": [
+                "The ROC (Receiver Operating Characteristic) curve plots the True Positive Rate against the False Positive Rate at various classification threshold settings. AUC (Area Under the Curve) summarizes this entire curve into a single number from 0 to 1, representing the model's overall ability to distinguish between the positive and negative classes."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "nlp_intro",
+            "patterns": [
+                "What is NLP",
+                "Explain Natural Language Processing",
+                "Define NLP in AI"
+            ],
+            "responses": [
+                "Natural Language Processing (NLP) is a branch of AI focused on giving computers the ability to understand, interpret, and generate human language in a meaningful and useful way."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "nlp_tokenization",
+            "patterns": [
+                "What is tokenization",
+                "How does tokenization work",
+                "Explain tokens in NLP"
+            ],
+            "responses": [
+                "Tokenization is the process of breaking down a piece of text into smaller units called tokens. These tokens can be words, characters, or subwords. It is usually the very first step in any NLP pipeline."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "nlp_stemming_lemmatization",
+            "patterns": [
+                "Stemming vs Lemmatization",
+                "What is stemming",
+                "Explain lemmatization"
+            ],
+            "responses": [
+                "Both are text normalization techniques. Stemming crudely chops off the ends of words to find the root (e.g., 'running' becomes 'run'). Lemmatization is more advanced; it uses vocabulary and morphological analysis to return the dictionary form of a word (the lemma), ensuring it is an actual valid word."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "nlp_stop_words",
+            "patterns": [
+                "What are stop words",
+                "Why remove stop words",
+                "Explain stopwords"
+            ],
+            "responses": [
+                "Stop words are highly common words in a language (like 'the', 'is', 'in', 'and') that carry very little meaningful information. In traditional NLP tasks, they are often removed from text data to save computational power and focus the model on the important keywords."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "nlp_tf_idf",
+            "patterns": [
+                "What is TF-IDF",
+                "Explain term frequency inverse document frequency",
+                "How does TFIDF work"
+            ],
+            "responses": [
+                "TF-IDF stands for Term Frequency-Inverse Document Frequency. It is a statistical measure used to evaluate how important a word is to a document within a larger collection (corpus). It increases proportionally to the number of times a word appears in the document but is offset by the frequency of the word in the corpus, helping to highlight unique, defining words."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "nlp_word_embeddings",
+            "patterns": [
+                "What are word embeddings",
+                "Explain Word2Vec",
+                "How do models understand text meaning"
+            ],
+            "responses": [
+                "Word embeddings are a type of word representation that allows words with similar meanings to have a similar representation in a continuous vector space. Algorithms like Word2Vec map words to dense vectors of numbers, capturing semantic relationships (e.g., calculating that 'king - man + woman = queen')."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "nlp_sentiment_analysis",
+            "patterns": [
+                "What is sentiment analysis",
+                "How to detect emotion in text",
+                "Explain opinion mining"
+            ],
+            "responses": [
+                "Sentiment analysis, also known as opinion mining, is an NLP technique used to determine the emotional tone behind a body of text. It categorizes text as positive, negative, or neutral, and is widely used for analyzing customer feedback and social media monitoring."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "nlp_ner",
+            "patterns": [
+                "What is NER",
+                "Explain Named Entity Recognition",
+                "How to extract names from text"
+            ],
+            "responses": [
+                "Named Entity Recognition (NER) is an NLP sub-task that seeks to locate and classify named entities mentioned in unstructured text into pre-defined categories such as person names, organizations, locations, medical codes, time expressions, and quantities."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "nlp_bert",
+            "patterns": [
+                "What is BERT",
+                "Explain Bidirectional Encoder Representations from Transformers",
+                "How does BERT work"
+            ],
+            "responses": [
+                "BERT is a highly influential NLP model developed by Google. Unlike previous models that read text sequentially, BERT reads the entire sequence of words at once (bidirectionally). This allows it to learn the context of a word based on all of its surroundings, dramatically improving performance on complex language tasks."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "nlp_llm",
+            "patterns": [
+                "What is an LLM",
+                "Explain Large Language Models",
+                "How does generative AI write text"
+            ],
+            "responses": [
+                "Large Language Models (LLMs) are massive AI systems trained on vast amounts of text data, typically using Transformer architectures. They excel at understanding context and generating human-like text by predicting the most logical next word in a sequence, allowing them to translate, summarize, write code, and hold complex conversations."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "cv_intro",
+            "patterns": [
+                "What is computer vision",
+                "Explain computer vision",
+                "Define CV in AI",
+                "What does computer vision do"
+            ],
+            "responses": [
+                "Computer Vision (CV) is a field of artificial intelligence that enables computers and systems to derive meaningful information from digital images, videos, and other visual inputs, and to take actions or make recommendations based on that information."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "cv_pixels_representation",
+            "patterns": [
+                "How do computers see images",
+                "What is a pixel in CV",
+                "How are images represented in AI",
+                "RGB in computer vision"
+            ],
+            "responses": [
+                "Computers see images as grids of numbers. Each number represents a pixel's color intensity. In a grayscale image, it's a 2D matrix of numbers from 0 to 255. In a color image, it's typically a 3D matrix with three separate layers for Red, Green, and Blue (RGB)."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "cv_object_detection",
+            "patterns": [
+                "What is object detection",
+                "Explain bounding boxes",
+                "How does AI find objects in images",
+                "What is YOLO"
+            ],
+            "responses": [
+                "Object detection is a computer vision technique that locates and identifies multiple objects within an image. It draws 'bounding boxes' around the objects and assigns a class label to each. YOLO (You Only Look Once) is a very famous and fast algorithm used for real-time object detection."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "cv_image_segmentation",
+            "patterns": [
+                "What is image segmentation",
+                "Semantic vs instance segmentation",
+                "Explain segmentation in CV"
+            ],
+            "responses": [
+                "Image segmentation partitions an image down to the pixel level. 'Semantic segmentation' classifies every pixel into a broad category (e.g., this group of pixels is 'road', this group is 'car'). 'Instance segmentation' goes further by identifying each distinct individual object of that category (e.g., 'car 1', 'car 2')."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "cv_opencv",
+            "patterns": [
+                "What is OpenCV",
+                "Computer vision libraries",
+                "How to process images in Python",
+                "Best library for CV"
+            ],
+            "responses": [
+                "OpenCV (Open Source Computer Vision Library) is the most widely used open-source library for computer vision, machine learning, and image processing. It is written in C++ but has deep integrations with Python, providing hundreds of highly optimized algorithms for real-time applications."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "cv_data_augmentation",
+            "patterns": [
+                "What is data augmentation in images",
+                "How to get more image data",
+                "Explain image augmentation for training"
+            ],
+            "responses": [
+                "Data augmentation artificially increases the size and diversity of a training dataset by creating modified versions of existing images. Common techniques include flipping, rotating, scaling, cropping, or changing the brightness. This helps prevent the model from overfitting and makes it more robust in the real world."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "cv_facial_recognition",
+            "patterns": [
+                "How does facial recognition work",
+                "What is face detection",
+                "Biometrics in computer vision"
+            ],
+            "responses": [
+                "Facial recognition is a two-step process. First, 'Face Detection' locates a human face in an image. Second, 'Face Recognition' maps the unique geometric features of that face (like the distance between the eyes) to create a 'faceprint', which is then compared against a database to verify identity."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_beginner_roadmap",
+            "patterns": [
+                "How to prepare for a data science interview as a beginner",
+                "Beginner data science roadmap",
+                "Where to start with data science",
+                "How to become a data scientist",
+                "Step by step guide to data science"
+            ],
+            "responses": [
+                "To prepare for a data science interview as a beginner, follow this core roadmap: 1. Master Python or R. 2. Learn SQL for data extraction. 3. Understand basic Statistics and Probability. 4. Learn core Machine Learning algorithms (Linear/Logistic Regression, Decision Trees). 5. Build 2-3 solid portfolio projects. 6. Practice explaining your technical decisions in simple terms."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_beginner_languages",
+            "patterns": [
+                "What language should I learn for data science",
+                "Python or R for data science",
+                "Do I need to learn C++ or Java for data science",
+                "Best programming language for beginners"
+            ],
+            "responses": [
+                "For beginners, Python is highly recommended due to its readable syntax and massive ecosystem of data libraries (Pandas, NumPy, Scikit-Learn). R is also excellent, particularly for statistical analysis and academia, but Python is generally more versatile and standard in production industry environments."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_beginner_math",
+            "patterns": [
+                "What math do I need for data science",
+                "Is math required for data science",
+                "Do I need calculus for data science",
+                "How much statistics do I need to know"
+            ],
+            "responses": [
+                "You don't need a PhD in mathematics, but you do need a solid intuition in three main areas: Linear Algebra (understanding vectors and matrices), Calculus (understanding derivatives for gradient descent), and most importantly, Probability and Statistics (understanding distributions, p-values, and hypothesis testing)."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_beginner_portfolio",
+            "patterns": [
+                "How to build a data science portfolio",
+                "What projects should I do as a beginner",
+                "Do I need a portfolio for data science",
+                "How to showcase my data science skills"
+            ],
+            "responses": [
+                "A strong portfolio is crucial for landing your first job. Avoid overused datasets like the Titanic or Iris. Instead, scrape your own data or use public APIs to solve a real-world problem you care about. Host your code on GitHub, and write clear README files that explain your methodology, insights, and business impact."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_beginner_sql",
+            "patterns": [
+                "How important is SQL for data science",
+                "Do I need to learn SQL",
+                "Is SQL asked in data science interviews",
+                "Why is SQL necessary"
+            ],
+            "responses": [
+                "SQL is absolutely critical. Most company data lives in relational databases, and you cannot analyze data or train models if you cannot extract the data first. Expect live SQL coding rounds (focusing on JOINS, GROUP BY, and Window Functions) in almost every data science interview."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_beginner_degrees",
+            "patterns": [
+                "Do I need a masters degree for data science",
+                "Are data science certificates worth it",
+                "Can I get a data science job without a degree",
+                "Self taught data scientist"
+            ],
+            "responses": [
+                "While a degree in a quantitative field (Math, Computer Science, Physics) helps get past automated resume filters, it is not strictly required. Many successful data scientists are self-taught or bootcamp graduates. Employers ultimately care most about your demonstrable skills, problem-solving ability, and portfolio."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_beginner_datasets",
+            "patterns": [
+                "Where can I find datasets for projects",
+                "How to get data to practice",
+                "Best dataset websites",
+                "Free data sources"
+            ],
+            "responses": [
+                "Great places to find datasets include Kaggle, Google Dataset Search, the UCI Machine Learning Repository, and government data portals like Data.gov. For a unique portfolio project, consider using Python libraries like BeautifulSoup or Scrapy to scrape your own data from the web."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_beginner_roles",
+            "patterns": [
+                "Difference between data analyst and data scientist",
+                "Data engineer vs data scientist",
+                "Which data role should I choose",
+                "What does a data analyst do"
+            ],
+            "responses": [
+                "Data Analysts focus on descriptive analytics (understanding what happened) using SQL, Excel, and BI tools like Tableau. Data Scientists focus on predictive analytics (predicting what will happen) using machine learning. Data Engineers build and maintain the pipelines and infrastructure that allow the other two to do their jobs."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_beginner_takehome",
+            "patterns": [
+                "How to handle a take home assignment",
+                "Data science take home challenge tips",
+                "What is a take home test in interviews",
+                "How to pass a data science case study"
+            ],
+            "responses": [
+                "A take-home assignment tests your practical, end-to-end skills. To succeed, don't just build a complex model; focus on data cleaning, writing well-documented code, and creating an executive summary. Explain why you chose your model, evaluate its performance realistically, and translate your findings into actionable business recommendations."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_beginner_tools",
+            "patterns": [
+                "Should I learn AWS for data science",
+                "Do I need to know Hadoop or Spark",
+                "Cloud computing for data science beginners",
+                "What tools are required for a junior data scientist"
+            ],
+            "responses": [
+                "As a beginner, focus strictly on the core fundamentals first: Python, SQL, Math, and basic ML. Once you are comfortable with those, learning Git for version control and the basics of a cloud platform (AWS, GCP, or Azure) will make you stand out. Don't overwhelm yourself with Big Data tools like Spark or Hadoop until you actually need them."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_beginner_behavioral",
+            "patterns": [
+                "What are common behavioral questions for data science",
+                "How to prepare for non-technical rounds",
+                "Soft skills for data science interviews",
+                "Tell me about a time you failed data science"
+            ],
+            "responses": [
+                "Behavioral interviews for Data Science often focus on communication and stakeholder management. Common questions include: 'Explain a complex technical concept to a non-technical audience,' 'Tell me about a time your model didn't perform as expected,' and 'How do you handle missing or messy data?' Use the STAR method (Situation, Task, Action, Result) to structure your answers."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "js_intro",
+            "patterns": [
+                "What is JavaScript",
+                "Explain JS",
+                "What is JavaScript used for",
+                "Tell me about JS"
+            ],
+            "responses": [
+                "JavaScript is a versatile, high-level programming language primarily used to create interactive effects within web browsers. However, with environments like Node.js, it is also heavily used for backend development."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "typescript_intro",
+            "patterns": [
+                "What is TypeScript",
+                "Difference between JS and TS",
+                "Why use TypeScript",
+                "Explain TS"
+            ],
+            "responses": [
+                "TypeScript is a strict syntactical superset of JavaScript developed by Microsoft. It adds optional static typing to the language, which helps catch errors early during development and makes large codebases easier to maintain."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "java_intro",
+            "patterns": [
+                "What is Java",
+                "Explain Java programming",
+                "Why use Java",
+                "Is Java still used"
+            ],
+            "responses": [
+                "Java is a highly popular, class-based, object-oriented programming language. It is famous for its 'Write Once, Run Anywhere' (WORA) philosophy, meaning compiled Java code can run on all platforms that support Java without the need for recompilation. It's heavily used in enterprise applications."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "cpp_intro",
+            "patterns": [
+                "What is C++",
+                "Explain C++",
+                "Where is C++ used",
+                "Difference between C and C++"
+            ],
+            "responses": [
+                "C++ is a high-performance, general-purpose programming language created as an extension of the C language. It provides low-level memory manipulation features and is widely used in game development, operating systems, embedded systems, and resource-heavy applications."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "csharp_intro",
+            "patterns": [
+                "What is C#",
+                "Explain C sharp",
+                "What is .NET used for",
+                "Where is C# used"
+            ],
+            "responses": [
+                "C# (pronounced C-sharp) is a modern, object-oriented, and type-safe programming language developed by Microsoft. It is the primary language used for the .NET framework, heavily used in enterprise software, desktop apps, and Unity game development."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "rust_intro",
+            "patterns": [
+                "What is Rust",
+                "Why use Rust",
+                "Explain Rust programming",
+                "Is Rust safe"
+            ],
+            "responses": [
+                "Rust is a modern systems programming language focused on safety, speed, and concurrency. It is beloved by developers for its unique 'ownership' model that guarantees memory safety and prevents bugs without needing a garbage collector."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "go_intro",
+            "patterns": [
+                "What is Golang",
+                "Explain Go programming",
+                "What is Go used for",
+                "Who created Go"
+            ],
+            "responses": [
+                "Go, or Golang, is an open-source programming language designed by Google. It is statically typed, compiled, and known for its blazing speed, simplicity, and built-in support for concurrent programming (using Goroutines), making it excellent for cloud infrastructure and microservices."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "swift_intro",
+            "patterns": [
+                "What is Swift",
+                "How to build iOS apps",
+                "Explain Swift programming",
+                "Language for Apple apps"
+            ],
+            "responses": [
+                "Swift is a powerful and intuitive programming language developed by Apple for building iOS, macOS, watchOS, and tvOS applications. It was designed to replace Objective-C, offering a cleaner syntax and modern safety features."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "kotlin_intro",
+            "patterns": [
+                "What is Kotlin",
+                "Is Kotlin better than Java",
+                "How to build Android apps",
+                "Explain Kotlin"
+            ],
+            "responses": [
+                "Kotlin is a modern, cross-platform, statically typed programming language that is 100% interoperable with Java. It is now the preferred and officially recommended language by Google for developing Android applications due to its concise syntax and null-safety."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "php_intro",
+            "patterns": [
+                "What is PHP",
+                "Is PHP dead",
+                "Explain PHP",
+                "What is PHP used for"
+            ],
+            "responses": [
+                "PHP is a widely-used open source general-purpose scripting language that is especially suited for web development and can be embedded into HTML. Despite rumors of its decline, it still powers a massive portion of the web, largely thanks to platforms like WordPress."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ruby_intro",
+            "patterns": [
+                "What is Ruby",
+                "Explain Ruby on Rails",
+                "What is Ruby used for"
+            ],
+            "responses": [
+                "Ruby is a dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write. It is most famous for the Ruby on Rails web framework, which allows for rapid application development."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "choose_language_general",
+            "patterns": [
+                "Which programming language should I learn",
+                "Best programming language to start",
+                "How to pick a programming language",
+                "What language should I learn first"
+            ],
+            "responses": [
+                "The best language depends entirely on your goals! For web frontend, learn JavaScript/TypeScript. For backend, Python, Node.js, or Go are great. For mobile, choose Swift (iOS) or Kotlin (Android). For game dev, look at C++ or C#. If you are a complete beginner, Python is generally considered the easiest to start with due to its readable syntax."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_beginner_memorization",
+            "patterns": [
+                "Do I have to remember everything in data science",
+                "Should I memorize all the machine learning algorithms",
+                "Do data scientists memorize code syntax",
+                "I keep forgetting Python syntax",
+                "Do I need to memorize pandas functions"
+            ],
+            "responses": [
+                "Absolutely not! No data scientist remembers everything. In the real world, you will constantly use Google, Stack Overflow, and official documentation. Focus on understanding *how* things work and *when* to use certain techniques, rather than memorizing exact syntax."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_beginner_googling",
+            "patterns": [
+                "Do real data scientists google things",
+                "Is it okay to use Stack Overflow",
+                "Do professionals look up code",
+                "Is it cheating to search for errors online"
+            ],
+            "responses": [
+                "Yes! Searching for solutions, reading documentation, and looking up error codes are core skills of a professional data scientist. Problem-solving is about knowing what questions to ask and how to adapt the answers to your specific dataset, not writing perfect code from memory."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_beginner_imposter_syndrome",
+            "patterns": [
+                "I feel like I know nothing about data science",
+                "Is it normal to feel overwhelmed in data science",
+                "I suffer from imposter syndrome",
+                "Data science is too hard",
+                "Everyone is smarter than me in data science"
+            ],
+            "responses": [
+                "It is completely normal to feel overwhelmed! Data science is a massive, constantly evolving field that combines math, coding, and business strategy. Even senior data scientists experience imposter syndrome. Focus on making 1% improvements every day and celebrate your small wins."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_beginner_bad_model",
+            "patterns": [
+                "What if my model accuracy is bad",
+                "My machine learning model is not predicting well",
+                "Is a low accuracy model a failure",
+                "Why is my model performing poorly"
+            ],
+            "responses": [
+                "A bad model is not a failure; it's a valuable data point! A low accuracy score tells you that you might need cleaner data, better feature engineering, or a different algorithm. In the real world, models rarely work perfectly on the first try. Iteration and debugging are where the real data science happens."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_beginner_tutorial_hell",
+            "patterns": [
+                "Is it okay to copy code from Kaggle",
+                "Am I just copying and pasting tutorials",
+                "How to stop relying on tutorials",
+                "How to get out of tutorial hell"
+            ],
+            "responses": [
+                "Copying code to learn is fine initially, but you should aim to understand every single line. To break out of 'tutorial hell', take a notebook you liked on Kaggle, close it, and try to apply those same techniques to a completely different, uncleaned dataset without looking at the original code."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_beginner_job_ready",
+            "patterns": [
+                "How do I know I am ready for a data science job",
+                "When should I apply for data science roles",
+                "Am I ready to be a junior data scientist",
+                "What is enough to get a data science job"
+            ],
+            "responses": [
+                "You will never feel 100% ready. If you can comfortably pull data using SQL, clean it using Python/Pandas, build a baseline predictive model, and—most importantly—explain your results and business impact clearly to a non-technical person, you are absolutely ready to start applying for junior roles!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_beginner_math_fear",
+            "patterns": [
+                "I am bad at math can I be a data scientist",
+                "Do I need to be a math genius for machine learning",
+                "What if I don't understand the math behind the algorithms"
+            ],
+            "responses": [
+                "You do not need to be a math genius. While researchers need deep mathematical knowledge to invent new algorithms, practical data scientists mainly need a strong intuition for statistics. You need to know *what* an algorithm does and *what assumptions* it makes about the data, not necessarily how to derive its formulas from scratch."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_beginner_day_to_day",
+            "patterns": [
+                "What does a data scientist actually do all day",
+                "Is data science just building models",
+                "Reality of a data science job"
+            ],
+            "responses": [
+                "A common misconception is that data scientists spend all day building advanced AI models. In reality, you will spend about 70-80% of your time finding, cleaning, and formatting messy data. The rest of your time is spent in meetings, building simple models, and creating presentations to explain your findings to business leaders."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_job_readiness_checklist",
+            "patterns": [
+                "When should I consider myself ready for a job",
+                "What is the checklist before applying to data science jobs",
+                "How do I know it is time to start applying",
+                "Am I ready for the industry yet"
+            ],
+            "responses": [
+                "Consider yourself ready when you can confidently do these three things without a step-by-step tutorial: 1) Write SQL queries to join and aggregate data. 2) Clean and explore a messy dataset using Python (Pandas). 3) Build a basic predictive model and explain what the results actually mean to a non-technical person."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_apply_with_missing_skills",
+            "patterns": [
+                "Should I apply if I don't meet all the requirements",
+                "I only have 50 percent of the skills on the job description",
+                "Do I need to know everything on the job posting",
+                "Job requires 3 years experience but I am a beginner"
+            ],
+            "responses": [
+                "Apply anyway! Job descriptions are often 'wishlists' written by HR, not strict scientific requirements. If you meet 50-60% of the core skills (like Python, SQL, and basic ML), you should apply. Let the company decide if you are a good fit; don't reject yourself before you even try."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_project_readiness",
+            "patterns": [
+                "How many projects do I need to be job ready",
+                "Is my portfolio good enough to get a job",
+                "Do I need a massive portfolio to apply"
+            ],
+            "responses": [
+                "You only need 2 to 3 high-quality, end-to-end projects to be job-ready. It's much better to have two deeply analyzed projects where you gathered your own data, solved a real business problem, and wrote a clear summary, rather than having ten basic 'Titanic' dataset tutorials on your GitHub."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_continuous_learning_trap",
+            "patterns": [
+                "I feel like I need to learn one more course before applying",
+                "I am stuck in the learning phase",
+                "When should I stop taking courses and start applying",
+                "I want to finish this certification before I apply"
+            ],
+            "responses": [
+                "Beware of the 'one more course' trap! You will never feel 100% ready because data science is simply too vast. Once you have the fundamentals down, the best way to learn what the industry actually wants is by doing real interviews. Treat your early interviews as practice sessions rather than tests."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_first_job_expectations",
+            "patterns": [
+                "What will be expected of me in my first data science job",
+                "Will I be fired if I don't know how to do something",
+                "Is it okay to ask questions at my first job"
+            ],
+            "responses": [
+                "In your first junior role, nobody expects you to architect a massive AI system on day one. They expect you to be eager to learn, to write clean code, to ask smart questions when you are stuck (after googling it first!), and to be a good team player. Communication is just as important as coding."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_career_demand",
+            "patterns": [
+                "Is data science in demand",
+                "Are there jobs in data science",
+                "Is it hard to get a job in data science",
+                "Demand for data scientists",
+                "Are companies still hiring data scientists"
+            ],
+            "responses": [
+                "Yes, the demand is incredibly high! Every industry—from healthcare to finance to retail—is collecting massive amounts of data and needs professionals to make sense of it. While the entry-level market can be competitive, there remains a global shortage of skilled data scientists who can solve real business problems."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_career_future",
+            "patterns": [
+                "Will AI replace data scientists",
+                "What is the future of data science",
+                "Is data science a dying field",
+                "Future scope of data science",
+                "Will ChatGPT take my data science job"
+            ],
+            "responses": [
+                "The future is very bright, but the role is evolving. Generative AI and tools like ChatGPT will automate repetitive coding and basic data cleaning tasks, but they will not replace data scientists. Instead, they will act as powerful co-pilots. The future belongs to data scientists who leverage these AI tools to work faster and focus on high-level business strategy."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_career_skills_summary",
+            "patterns": [
+                "What are the top skills for a data scientist",
+                "Most important skills in data science",
+                "What skills are needed for data science",
+                "Data scientist skill set"
+            ],
+            "responses": [
+                "A successful data scientist needs a blend of three core areas: 1) Programming (Python, SQL), 2) Math (Statistics, Probability, Linear Algebra), and 3) Business Acumen. You must be able to write code to extract and clean data, use math to build predictive models, and use business knowledge to explain why your findings actually matter to the company."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_career_salary",
+            "patterns": [
+                "What is the salary of a data scientist",
+                "How much do data scientists make",
+                "Data science starting salary",
+                "Do data scientists get paid well",
+                "Is data science lucrative"
+            ],
+            "responses": [
+                "Data science is consistently ranked as one of the highest-paying fields. While compensation varies heavily based on your location, industry, and the specific company, entry-level data scientists generally command very strong starting salaries. As you gain experience and move into senior or specialized AI roles, the earning potential grows significantly."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_career_vs_swe",
+            "patterns": [
+                "Should I do software engineering or data science",
+                "Software engineer vs data scientist",
+                "Which is better coding or data science",
+                "Difference between software development and data science"
+            ],
+            "responses": [
+                "It depends on how your brain works! Software Engineering is about building robust, scalable products and systems (like apps or websites). Data Science is highly exploratory and research-oriented; it's about uncovering hidden patterns in messy data and predicting future trends. If you love building things, choose SWE. If you love solving mysteries using math, choose Data Science."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_foreign_jobs",
+            "patterns": [
+                "Can I get a data science job abroad",
+                "How to apply for foreign data science jobs",
+                "Do US companies hire international data scientists",
+                "Visa sponsorship for data science",
+                "Remote international data science jobs",
+                "How to work as a data scientist in another country"
+            ],
+            "responses": [
+                "Getting a data science job abroad is absolutely possible due to the global skill shortage, but it requires strategy. Focus on building a world-class, globally visible portfolio on GitHub and Kaggle. You have two main paths: Target large multinational companies or well-funded tech startups that are known to offer visa sponsorships (like the H-1B in the US or Blue Card in the EU), or apply to remote-first companies that hire contractors globally regardless of location."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_salary_us",
+            "patterns": [
+                "What is the salary of a data scientist in the US",
+                "How much do data scientists make in America",
+                "Average US data science salary",
+                "Entry level data scientist salary USA",
+                "How much do FAANG data scientists make"
+            ],
+            "responses": [
+                "In the US, data science is highly lucrative. An entry-level Junior Data Scientist typically makes between $85,000 and $115,000 per year. Mid-level roles average around $130,000 to $160,000. Senior Data Scientists or those at Big Tech companies (like Google, Meta, Amazon) can easily exceed $200,000 to $300,000+ when you combine base salary, annual bonuses, and stock grants (RSUs). Keep in mind that salaries vary wildly based on the cost of living in cities like San Francisco or New York versus the Midwest."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_daily_routine",
+            "patterns": [
+                "What is the daily routine of a data scientist",
+                "Describe a typical day for a data scientist",
+                "How much coding does a data scientist do every day",
+                "What are the day to day tasks in data science",
+                "Daily life of a data scientist",
+                "What is the actual work of data scientist"
+            ],
+            "responses": [
+                "A typical day is highly varied, but it usually breaks down like this: 20% attending meetings (agile stand-ups, talking to stakeholders to figure out what they actually need), 50% writing SQL and Python to extract, clean, and format messy data (this is the unglamorous but most critical part!), 20% doing exploratory data analysis or training machine learning models, and 10% building dashboards (Tableau/PowerBI) or slides to translate your complex math into simple business advice for executives."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_remote_work",
+            "patterns": [
+                "Can a data scientist work from home",
+                "Are data science jobs remote",
+                "Is data science a good career for remote work",
+                "Work from home as a data scientist"
+            ],
+            "responses": [
+                "Yes! Data Science is one of the most remote-friendly careers in the world. Since your primary tools are a laptop, cloud computing environments (like AWS or GCP), and a solid internet connection, many companies offer fully remote or hybrid schedules for their data teams. It requires excellent written communication skills, though, as you need to be able to explain your data insights via Slack or email effectively."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_career_levels",
+            "patterns": [
+                "What are the levels in data science",
+                "Data science promotion path",
+                "Beginner to advanced data science roles",
+                "Data science career ladder",
+                "What comes after senior data scientist"
+            ],
+            "responses": [
+                "The standard data science career ladder usually looks like this: 1) Junior Data Scientist / Data Analyst, 2) Data Scientist (Mid-level), 3) Senior Data Scientist, 4) Lead / Principal Data Scientist. After Principal, you generally have to choose between a Management track (Data Science Manager, VP of Data) or an Individual Contributor track (Staff Data Scientist) if you want to stay strictly technical."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_salary_hike",
+            "patterns": [
+                "How much does salary increase with promotion",
+                "Salary hike from junior to senior",
+                "Data science salary progression",
+                "Do data scientists get good raises",
+                "How to get a massive salary bump in tech"
+            ],
+            "responses": [
+                "Salary hikes in data science are substantial as you level up. Moving from Junior to Mid-level often comes with a 20% to 30% base pay bump. The jump to Senior can bring another 30% to 50% increase, plus significant annual bonuses and company stock options (RSUs). Keep in mind, the fastest way to get a massive 30%+ hike is often by changing companies every 2 to 3 years, rather than waiting for standard 4% internal yearly raises."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_getting_promoted",
+            "patterns": [
+                "How to become a senior data scientist",
+                "What is the difference between junior and senior data scientist",
+                "How to get promoted in data science",
+                "What skills make you a senior"
+            ],
+            "responses": [
+                "The biggest difference between a Junior and Senior Data Scientist isn't just knowing more algorithms. A Junior needs well-defined tasks assigned to them. A Senior can take a vague, messy business problem from the CEO, figure out what data is needed, design the architecture, build the model, and explain the financial impact. To get promoted, focus less on advanced math and more on communication, system design, and driving actual revenue."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_manager_track",
+            "patterns": [
+                "Do I have to become a manager",
+                "Data science manager vs individual contributor",
+                "Is management the only way to earn more"
+            ],
+            "responses": [
+                "No, you do not have to become a manager! Many tech companies now offer a dual-track system. If you hate meetings and love coding, you can become a 'Staff' or 'Principal' Data Scientist. These are highly advanced, highly paid individual contributor (IC) roles that command the same salary and respect as a Director or Manager, but your focus remains entirely on solving complex technical architecture problems."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_interview_stages",
+            "patterns": [
+                "What are the stages of a DS interview",
+                "How many rounds in a data science interview",
+                "What is the typical interview process",
+                "Do DS interviews have HR rounds",
+                "What happens in a phone screen for data science"
+            ],
+            "responses": [
+                "A typical Data Science interview process has 4-5 stages: 1) HR Phone Screen (checking basic fit and salary expectations), 2) Hiring Manager Interview (discussing your background and portfolio), 3) Technical Screen (Live SQL/Python coding or a Take-Home test), 4) Onsite/Final Rounds (deep dives into ML theory, product sense, and behavioral questions)."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_resume_tips",
+            "patterns": [
+                "How to write a data science resume",
+                "What should I put on my DS resume",
+                "One page or two page resume",
+                "How to pass ATS for data science",
+                "Should I include non-tech jobs on resume"
+            ],
+            "responses": [
+                "Keep your resume to exactly one page if you have less than 5 years of experience. To pass ATS (Applicant Tracking Systems), use standard fonts, avoid weird columns, and heavily incorporate keywords from the job description (e.g., Python, SQL, Random Forest, A/B Testing). Focus on the IMPACT of your projects using the formula: 'Accomplished [X] as measured by [Y], by doing [Z]'."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_linkedin_profile",
+            "patterns": [
+                "How important is LinkedIn for data science",
+                "Should I post projects on LinkedIn",
+                "How to reach out to recruiters",
+                "LinkedIn optimization for data analysts",
+                "Does a good LinkedIn profile get jobs"
+            ],
+            "responses": [
+                "LinkedIn is incredibly important; many recruiters search there before posting jobs publicly. Optimize your headline (e.g., 'Data Scientist | Python | SQL | Machine Learning'), list your projects with GitHub links in the Featured section, and don't be afraid to send polite, concise messages to recruiters or senior data scientists at companies you want to work for."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_leetcode",
+            "patterns": [
+                "Do I need to grind LeetCode for data science",
+                "Are DSA questions asked in DS interviews",
+                "Data structures and algorithms for data science",
+                "Is LeetCode important for machine learning roles",
+                "What type of coding questions are asked"
+            ],
+            "responses": [
+                "It depends on the company. FAANG and heavy tech companies often ask standard Data Structures and Algorithms (DSA) questions (LeetCode Easy/Medium). However, most non-tech companies (banks, retail, healthcare) will focus more on applied data manipulation using Pandas or SQL rather than reversing binary trees. Master SQL and Pandas first, then do basic LeetCode."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_sql_interview",
+            "patterns": [
+                "How difficult is the SQL interview",
+                "Do they ask advanced SQL",
+                "Live SQL coding round tips",
+                "Window functions in interviews",
+                "Will I write SQL on a whiteboard"
+            ],
+            "responses": [
+                "SQL rounds are highly prioritized. You will rarely be asked to set up a database from scratch, but you MUST master querying. Expect heavy emphasis on complex JOINs, GROUP BYs, Subqueries, CTEs (Common Table Expressions), and especially Window Functions (RANK, LEAD, LAG, OVER). You may have to write this live on platforms like HackerRank or literally on a whiteboard."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_product_sense",
+            "patterns": [
+                "What is a product sense interview",
+                "How to answer case study questions",
+                "Product metrics questions",
+                "How to prepare for business intuition rounds",
+                "What if they ask how to improve a product"
+            ],
+            "responses": [
+                "Product sense interviews test if you can tie data to business goals. They will ask things like, 'How would you measure the success of a new Facebook like button?' To answer, always structure your thoughts: 1) Clarify the business goal, 2) Identify the user journey, 3) Define 1-2 North Star metrics, 4) Define guardrail metrics (what shouldn't break), and 5) Propose an A/B test setup."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_stats_interview",
+            "patterns": [
+                "How deep do stats questions go",
+                "Do they ask to solve math on a whiteboard",
+                "What probability questions are asked",
+                "Will they ask Bayes theorem",
+                "Do I need to derive formulas in interviews"
+            ],
+            "responses": [
+                "Unless you are interviewing for a pure research role, you won't derive complex calculus formulas. However, you MUST know applied statistics. Expect deep-dive questions on A/B testing, p-values, confidence intervals, sample size calculation, normal distributions, and Bayes' Theorem applied to real scenarios (e.g., 'What is the probability a user clicks this ad given they are female?')."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_explain_project",
+            "patterns": [
+                "How to explain a project in an interview",
+                "Walk me through your portfolio question",
+                "How long should I talk about my project",
+                "What if they ask about a project I did a long time ago",
+                "How to present a take home assignment"
+            ],
+            "responses": [
+                "When explaining a project, use the STAR method but keep it under 3 minutes initially. Start with the Business Problem (Why did you do this?), then the Data (Where did it come from? Was it messy?), the Approach (Why did you choose Random Forest over Logistic Regression?), and most importantly, the Result (What was the business impact or key takeaway?). Let the interviewer interrupt with technical questions."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_model_deployment",
+            "patterns": [
+                "Do juniors need to know model deployment",
+                "Will they ask about Docker or Kubernetes",
+                "Do I need to know Flask or FastAPI",
+                "What is MLOps for beginners",
+                "How to answer deployment questions"
+            ],
+            "responses": [
+                "For junior roles, deep MLOps knowledge (Kubernetes, CI/CD pipelines) is rarely expected. However, knowing the basics of how to wrap your Python model in an API using Flask or FastAPI, and having a conceptual understanding of Docker (creating containers) will make you stand out massively from other beginners."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_faang_vs_startup",
+            "patterns": [
+                "FAANG vs startup interviews",
+                "Is it harder to interview at big tech",
+                "Do startups have easier interviews",
+                "Which company is better for a beginner",
+                "Difference in interview process between big tech and startups"
+            ],
+            "responses": [
+                "FAANG interviews are highly standardized, focusing heavily on LeetCode DSA, System Design, and deep Product Sense. Startups are more chaotic; their interviews usually focus strictly on practical application (Take-Home assignments, messy data tasks) because they need someone to start building immediately. Startups test if you can build things end-to-end; FAANG tests if you can optimize at scale."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_whiteboard_coding",
+            "patterns": [
+                "How to survive a whiteboard interview",
+                "Do companies still use whiteboards",
+                "What if I freeze during live coding",
+                "Can I use pseudocode in interviews",
+                "How to think out loud during coding"
+            ],
+            "responses": [
+                "Whiteboard (or live shared-screen) coding is about your thought process, not perfect syntax. If you freeze, communicate! Say, 'I am currently thinking about how to join these two tables without creating duplicates.' It is completely acceptable to ask to write pseudocode first to outline your logic before writing actual Python or SQL. Interviewers want to help you if you let them."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_culture_fit",
+            "patterns": [
+                "What is a culture fit round",
+                "How to pass behavioral interviews",
+                "What are HR looking for in data scientists",
+                "Questions to ask at the end of the interview",
+                "How to show passion for data"
+            ],
+            "responses": [
+                "Behavioral rounds check if you are a good person to work with. They want to see that you take feedback well, can collaborate with non-technical teams, and don't have a giant ego. Always have questions prepared for the end! Ask things like: 'What does the data infrastructure look like right now?' or 'What is the biggest challenge this data team is facing this quarter?'"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_handle_idk",
+            "patterns": [
+                "What to say if I don't know the answer",
+                "Is it okay to say I don't know in an interview",
+                "How to guess an answer politely",
+                "Will I be rejected if I miss one question",
+                "How to handle trick questions"
+            ],
+            "responses": [
+                "Never lie or make up a technical concept. If you don't know, confidently say: 'I haven't used that specific algorithm/library before, but based on what I know about X, I would hypothesize that it works like Y. Could you tell me if I'm on the right track?' Missing a trivia question won't fail you; pretending to know something you don't will."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_takehome_timeline",
+            "patterns": [
+                "How much time to spend on a take home test",
+                "Should I spend a week on a data science assignment",
+                "What if the take home is too long",
+                "Do companies pay for take home projects",
+                "How perfect should the assignment be"
+            ],
+            "responses": [
+                "Most take-homes claim they take '3-4 hours', but candidates often spend 10-15. Set a strict limit for yourself (e.g., 6 hours). It is better to submit a simple, well-documented, clean model with a brilliant 1-page summary of your findings, rather than spending 20 hours building a massive neural network with zero documentation."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_negotiation",
+            "patterns": [
+                "How to negotiate data science salary",
+                "Should a beginner negotiate salary",
+                "When do they ask about salary expectations",
+                "What to say when asked for expected salary",
+                "Can they withdraw the offer if I negotiate"
+            ],
+            "responses": [
+                "Even as a beginner, you should politely negotiate. When asked for a number initially, try to defer: 'I'm more focused on finding the right fit, what is the approved budget for this role?' If you have an offer, simply asking, 'Is there any flexibility on the base salary?' rarely results in a rescinded offer, and can often gain you an extra 5-10%."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_mock_interviews",
+            "patterns": [
+                "Are mock interviews helpful",
+                "How to practice for data science interviews",
+                "Where to find mock interviewers",
+                "Should I practice speaking to a mirror",
+                "How to get rid of interview anxiety"
+            ],
+            "responses": [
+                "Mock interviews are the single best way to prepare. Speaking technical concepts aloud is very different from understanding them in your head. Use platforms like Pramp, interview peers from online communities, or record yourself explaining a concept on Zoom and watch it back. Anxiety drops significantly when your verbal explanations become muscle memory."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_github_review",
+            "patterns": [
+                "Do recruiters look at my GitHub",
+                "Should my GitHub be perfectly green",
+                "How to organize GitHub repositories",
+                "Do interviewers read my code",
+                "Is an empty GitHub a red flag"
+            ],
+            "responses": [
+                "Recruiters won't read your code, but Hiring Managers often will. You don't need a perfectly green contribution graph, but an empty GitHub is a missed opportunity. Pin your top 3 projects to your profile. The most crucial element is the README.md file—it should clearly explain the project, show a visual graph or dashboard, and detail how to run the code."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_overfitting_underfitting",
+            "patterns": [
+                "How to explain overfitting in an interview",
+                "Bias variance tradeoff questions",
+                "How to know if a model is underfitting",
+                "Interview questions on model performance",
+                "How do you fix an overfitted model"
+            ],
+            "responses": [
+                "Expect this in every interview! Explain it simply: Overfitting (High Variance) is when a model memorizes the training data but fails on new data. Fix it by getting more data, removing features, or adding regularization (L1/L2). Underfitting (High Bias) is when the model is too simple to learn anything. Fix it by adding more complex features or using a more complex algorithm."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_feature_engineering_interview",
+            "patterns": [
+                "Feature engineering questions",
+                "How do you select features",
+                "What if there are too many variables",
+                "How to explain feature selection",
+                "Dimensionality reduction questions"
+            ],
+            "responses": [
+                "Interviewers want to see how you think about data. Discuss using domain knowledge to create new features (e.g., turning 'birthdate' into 'age'). For selection, mention techniques like looking at correlation matrices, using tree-based feature importance, applying L1 (Lasso) regularization to zero out bad features, or using PCA for dimensionality reduction."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_metric_selection",
+            "patterns": [
+                "Why not use accuracy for everything",
+                "How to choose the right metric",
+                "When to use precision vs recall",
+                "Interview questions on F1 score",
+                "How to explain AUC ROC to a business person"
+            ],
+            "responses": [
+                "This is a classic 'gotcha' question. Never use Accuracy for imbalanced data (like fraud detection, where 99% of transactions are legitimate). Explain that you use Precision when False Positives are expensive (like spam filters), Recall when False Negatives are dangerous (like cancer detection), and the F1-Score when you need a balance of both."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_outliers_missing",
+            "patterns": [
+                "How do you handle outliers",
+                "Interview questions on missing data",
+                "Should I drop or impute values",
+                "How to explain data cleaning decisions",
+                "What to do with messy data in a live test"
+            ],
+            "responses": [
+                "There is no single right answer, which is exactly why they ask it! Explain your logic: 'I check why the data is missing. If it's randomly missing and under 5%, I might drop the rows or impute with the median. If a whole column is 80% empty, I drop the column. For outliers, I use the IQR method, but I always consult the business team first to ensure it's not a valid anomaly.'"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_ml_theory",
+            "patterns": [
+                "Will they ask me to explain algorithms from scratch",
+                "How to explain random forest to a child",
+                "Explain logistic regression simply",
+                "Do I need to know the math behind SVM",
+                "How deep should my algorithm knowledge be"
+            ],
+            "responses": [
+                "You need to be able to explain algorithms in 'plain English'. For example, explain Random Forest as: 'Imagine asking 100 different people for a movie recommendation, and going with the movie that gets the most votes. That is an ensemble of decision trees.' You must also know the core assumptions of the models (e.g., Logistic regression assumes a linear relationship between features and the log-odds of the outcome)."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_rejection",
+            "patterns": [
+                "How to deal with interview rejection",
+                "Why am I failing data science interviews",
+                "Getting ghosted by recruiters",
+                "How to ask for feedback after rejection",
+                "How many applications before a job"
+            ],
+            "responses": [
+                "Rejection is the norm, not the exception. It is common to send 100-300 applications to get 10 interviews and 1 offer. If you fail the resume stage, your resume/portfolio is the issue. If you fail the technical stage, your coding needs work. If you fail the final stage, your communication or behavioral framing needs practice. Always send a polite follow-up email asking for constructive feedback."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ds_domain_knowledge",
+            "patterns": [
+                "Do I need healthcare knowledge for a healthcare data job",
+                "What is domain knowledge",
+                "How to answer domain specific questions",
+                "Do they expect me to know their business",
+                "How to research a company before an interview"
+            ],
+            "responses": [
+                "While you don't need to be a doctor to work in healthcare data, you DO need to show curiosity about the domain. Before any interview, research the company's business model. How do they make money? What are their biggest costs? An okay data scientist builds models; a great data scientist uses models to increase revenue or cut costs for that specific business."
+            ],
+            "context": [
+                ""
+            ]
+        }
+    ]
+}
